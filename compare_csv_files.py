@@ -78,6 +78,7 @@ def write_differences_to_csv(differences, output_file_path):
 
 def compare_multiple_files(master_file, source_files, output_file):
     """Compare a master file with multiple source files and output the differences."""
+    Print("My name is ARTI")
     master_df = csv_to_list_of_dicts(master_file)
     master_df = json.loads(master_df)
     source_df=csv_to_list_of_dicts(source_files);
